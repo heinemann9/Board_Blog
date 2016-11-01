@@ -1,0 +1,138 @@
+* {
+	margin: 0; padding: 0;
+	font-family: 'Segoe UI', Meiryo, 'Trebuchet MS', 나눔고딕, NanumGothic, ng, '맑은 고딕', 'Malgun Gothic';
+	font-size:15px;
+}
+
+a, div a, li a,td a{ text-decoration: none;}
+li{list-style: none;}
+
+.home{
+	font-size:50px;
+	color:rgb(135, 206, 250);
+	
+}
+
+#myCanvas{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	width:500px;
+}
+
+/* 헤더 구성하기 */
+#hd {
+	margin: 0 auto;
+	width: 650px;
+}
+#top-mn{
+	position:relative;
+	z-index:110;
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:3px 6px;
+	border-top:1px solid #444;
+}
+
+.top-item{
+	display:inline-block;
+	margin:0 9px;
+	*display:inline;
+	*zoom:1;
+}
+
+.top-item-title{
+	font-size:11px;
+	line-height:19px;
+	letter-spacing:-1px;
+	color:#444;
+}
+
+.top-item-title:hover{
+	color:#000;
+}
+
+#main-navigation{
+	margin-top: 20px;
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+.outer-menu-item{
+	float:left;
+	position:relative;
+	border-right-width: 1px;
+	border-right-color: #CCC;
+	border-right-style: solid;
+}
+
+.outer-menu-item:hover, .outer-menu-item:hover > a{
+	background:black;
+	color:white;
+}
+
+
+.menu-title{
+	display:block;
+	height: 30px;
+	line-height:30px;
+	text-align:center;
+	padding: 5px 20px;
+	color: rgb(51, 51, 51);
+}
+
+.inner-menu{
+	display: none;
+	position: absolute;
+	width: 100%;
+	
+	background:white;
+	box-shadow: 0 2px 6px rgba(5,5,5,0.9);
+	z-index: 1000;
+	
+	text-align:center;
+}
+
+.inner-menu-item > a{
+	display: block;
+	padding: 5px 10px;
+	color: black;
+}
+
+.inner-menu-item > a:hover{
+	background: black;
+	color: white;
+}
+/* 헤더 끝 */
+
+/* 프로필 */
+#profile {padding:15px; background:#FFFFFF;}
+#profile table.profile_info {margin: 0 auto; width:430px;border-top:10px #D8D8D5 solid; border-collapse:collapse; text-align:left; table-layout:fixed;} /*1208수정 */
+#profile table.profile_info th {width:17%; padding:8px 0 5px 0; border-bottom:1px #D8D8D5 solid; background:#F7F7F7;}
+#profile table.profile_info td {width:33%; padding:8px 0 5px 0; border-bottom:1px #D8D8D5 solid; overflow:hidden; word-wrap:break-word; word-break:break-all;}
+#profile table.profile_info th span {padding-left:20px; font-size:12px;}
+#profile table.profile_info td span {padding-left:10px; font-size:12px;}
+
+section .img_profile{
+	margin: 0 auto; 
+	width:430px;
+}
+
+.black20{
+	height: 20px;
+	overflow: hidden;
+}
+/* 프로필 */
+
+.footer{
+	padding: 20px 0px;
+	color: rgb(119,119,119);
+	text-align: center;
+	margin: 0 auto;
+	width: 430px;
+}
